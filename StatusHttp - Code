@@ -1,4 +1,4 @@
-more information - https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10
+##more information - https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10
 
 
 10.1 Informational 1xx
@@ -8,7 +8,7 @@ A client MUST be prepared to accept one or more 1xx status responses prior to a 
 Proxies MUST forward 1xx responses, unless the connection between the proxy and its client has been closed, or unless the proxy itself requested the generation of the 1xx response. (For example, if a
 proxy adds a "Expect: 100-continue" field when it forwards a request, then it need not forward the corresponding 100 (Continue) response(s).)
 
-100 Continue
+**100 Continue**
 The client SHOULD continue with its request. This interim response is used to inform the client that the initial part of the request has been received and has not yet been rejected by the server. The client SHOULD continue by sending the remainder of the request or, if the request has already been completed, ignore this response. The server MUST send a final response after the request has been completed. See section 8.2.3 for detailed discussion of the use and handling of this status code.
 
 101 Switching Protocols
