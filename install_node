@@ -1,0 +1,7 @@
+how install node.js to ubuntu
+
+sudo apt-get install nodejs -> install node version 7.10
+sudo npm cache clean -f -> clean cash
+sudo npm cache clean -f -> interative manager node.js version
+sudo n stable -> update version node
+sudo ln -sf /usr/local/n/versions/node/6.0.0/bin/node /usr/bin/node -> set node to last version
